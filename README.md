@@ -1,5 +1,7 @@
 # Vibe reference UI
 
+**Repository:** [github.com/Ictraeh/vibe-reference-ui](https://github.com/Ictraeh/vibe-reference-ui)
+
 Minimal browser UI for [`../docs/animation-reference/tone-vibes.json`](../docs/animation-reference/tone-vibes.json): search by mood or phrase, see **patterns**, **trigger phrases**, and **external doc links** (Motion, Magic UI, React Bits, Kokonut, CuiCui, anime.js, GSAP, Theatre).
 
 ## Run locally
