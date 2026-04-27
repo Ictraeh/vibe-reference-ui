@@ -2,7 +2,7 @@
 
 **Repository:** [github.com/Ictraeh/vibe-reference-ui](https://github.com/Ictraeh/vibe-reference-ui)
 
-Minimal browser UI for [`../docs/animation-reference/tone-vibes.json`](../docs/animation-reference/tone-vibes.json): search by mood or phrase, see **patterns**, **trigger phrases**, and **external doc links** (Motion, Magic UI, React Bits, Kokonut, CuiCui, anime.js, GSAP, Theatre).
+Minimal browser UI for [`docs/animation-reference/tone-vibes.json`](docs/animation-reference/tone-vibes.json): search by mood or phrase, see **patterns**, **trigger phrases**, and **external doc links** (Motion, Magic UI, React Bits, Kokonut, CuiCui, anime.js, GSAP, Theatre).
 
 ## Run locally
 
@@ -19,7 +19,14 @@ npm run build
 npm run preview
 ```
 
-The app imports the JSON from the parent workspace (`docs/animation-reference/`). Keep that path when you move folders.
+The app imports **`docs/animation-reference/tone-vibes.json` inside this repo** so clones and Vercel work without the parent folder.
+
+If you still maintain a copy under **Designer’s pandora box** `docs/animation-reference/`, sync both when you edit:
+
+```bash
+# from workspace root — after editing root docs, refresh the UI repo copy
+cp -R "docs/animation-reference/"* "vibe-reference-ui/docs/animation-reference/"
+```
 
 ## Deploy
 

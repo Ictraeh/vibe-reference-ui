@@ -16,5 +16,5 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "."
   },
-  "include": ["src", "../docs/animation-reference/tone-vibes.json"]
+  "include": ["src", "docs/animation-reference/tone-vibes.json"]
 }

@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import toneData from "../../docs/animation-reference/tone-vibes.json";
+import toneData from "../docs/animation-reference/tone-vibes.json";
 
 type ExternalRef = { site: string; url: string; why: string };
 type Vibe = {
@@ -65,8 +65,7 @@ export function App() {
     <>
       <h1>Vibe → animation refs</h1>
       <p className="lead">
-        Search natural language; each card links to Motion, galleries, and engines. Data:{" "}
-        <code>docs/animation-reference/tone-vibes.json</code>
+        Search natural language; each card links to Motion, galleries, and engines.         Data: <code>docs/animation-reference/tone-vibes.json</code> (bundled in this repo)
       </p>
 
       <p className="lead" style={{ fontSize: "0.8rem" }}>
